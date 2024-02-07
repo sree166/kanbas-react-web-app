@@ -1,6 +1,14 @@
 <html>
 
-<head> </head>
+<head> 
+    <link rel="stylesheet" href="../../../Kanbas/styles.css" />
+    <link rel="stylesheet" href="../../../Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="../../../Kanbas/Courses/Navigation/index.css" />
+
+    <link href="../../../libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.css" rel="stylesheet" />
+
+</head>
 
 <body>
     <table width="100%">
@@ -9,39 +17,48 @@
 
 
                 <td valign="top">
-                    <ul>
-                        <li><a href="/Kanbas/Account/Profile/screen.html">
+                    <ul class="wd-kanbas-navigation">
+                        <li><a href="http://northeastern.edu"> <img src = "../../../Images/NU.png" ></a></li>
+                        <li><a href="/Kanbas/Account/Profile/screen.html"> <i class="fa fa-user-circle-o" ></i>
                                 Account</a></li>
                         <li>
-                            <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                            <a href="/Kanbas/Dashboard/screen.html"> <i class="fa fa-tachometer" aria-hidden="true"></i>
+                                Dashboard</a>
+                        </li>
+                        <li class="wd-active">
+                            <a href="/Kanbas/Courses/Home/screen.html"> <i class="fa fa-book" aria-hidden="true"></i>
+                                Courses</a>
                         </li>
                         <li>
-                            <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                            <a href="#"> <i class="fa fa-calendar" aria-hidden="true"></i>
+                                Calendar</a>
                         </li>
                         <li>
-                            <a href="/Kanbas/Calendar/index.html">Calendar</a>
+                            <a href="#"> <i class="fa fa-inbox" aria-hidden="true"></i>
+                                Inbox</a>
                         </li>
                         <li>
-                            <a href="/Kanbas/Inbox/index.html">Inbox</a>
+                            <a href="#"> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                History</a>
                         </li>
                         <li>
-                            <a href="/Kanbas/History/index.html">History</a>
+                            <a href="#"> <i class="fa fa-television" aria-hidden="true"></i>
+                                Studio</a>
                         </li>
                         <li>
-                            <a href="/Kanbas/Studio/index.html">Studio</a>
+                            <a href="#"> <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                                Commons</a>
                         </li>
                         <li>
-                            <a href="/Kanbas/Commons/index.html">Commons</a>
-                        </li>
-                        <li>
-                            <a href="/Kanbas/Help/index.html">Help</a>
+                            <a href="#"> <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                                Help</a>
                         </li>
                     </ul>
                 </td>
 
 
-                <td valign="top">
-                    <ul>
+                <td valign="top" style="text-align: left; padding: 70px;">
+                    <ul class="wd-navigation">
                         <li>
                             <a href="/Kanbas/Courses/Home/screen.html">
                                 Home</a>
@@ -66,7 +83,7 @@
                             <a href="/Kanbas/Courses/Quizzes/screen.html">
                                 Quizzes</a>
                         </li>
-                        <li>
+                        <li class="wd-active">
                             <a href="/Kanbas/Courses/Grades/screen.html">
                                 Grades</a>
                         </li>
