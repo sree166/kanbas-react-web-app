@@ -1,0 +1,165 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+  color: black; 
+}
+
+.module-button {
+  background-color: red;
+  border: 1px solid gray !important;
+  border-left: none !important;
+  color: white; 
+}
+
+.green-icon {
+  color: green;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+.container button,
+      .container select {
+          padding: 5px        }
+
+.red-button {
+  background-color: red;
+  color: white;
+}
+
+.padding-button{
+  padding: 5px 
+}
+
+
+
+.container_right{
+  text-align: right;
+}
+
+.small-grey-text {
+  font-size: small;
+  color: grey;
+}
+
+.redlink {
+  list-style: none;
+}
+
+.redlink a{
+  color: red;
+}
+
+
+
+.wd-button{
+  display:flex ; 
+  justify-content: end;
+
+}
+
+
+.no-link {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 250px;
+  text-align: left;
+  background-color: lightgray;
+}
+
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 6% !important;
+}
+
+.no-link a {
+  color: black; 
+  text-decoration: none; 
+}
+
+.wd-modules,
+.wd-modules * {
+border-radius: 0%;
+margin: 0px;
+padding: 0px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.wd-modules {
+margin: 5px;
+}
+
+.wd-modules > li {
+background-color: lightgray;
+border: 1px solid gray !important;
+border-left: none !important;
+}
+
+.wd-modules > li > div {
+padding: 6px;
+border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+padding: 5px;
+border-top: 1px solid gray !important;
+border-left: 2px solid green;
+}
+
+
+.wd-modules > li {
+margin-bottom: 20px;
+}
+
+
+
+
+
+
